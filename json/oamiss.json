@@ -1594,22 +1594,7 @@
         "id": "http://diglib.hab.de/mss/50-weiss/canvas/page1",
         "type": "Canvas"
     },
-    "services": [
-        {
-            "@id": "http://diglib.hab.de/mss/50-weiss/auth/login",
-            "@type": "AuthCookieService1",
-            "label": "Login to WDB",
-            "profile": "http://iiif.io/api/auth/1/login",
-            "service": [
-                {
-                    "@id": "http://diglib.hab.de/mss/50-weiss/auth/token",
-                    "@type": "AuthTokenService1",
-                    "profile": "http://iiif.io/api/auth/1/token"
-                }
-            ]
-        }
-    ],
-    "canvases": [
+    "items": [
         {
             "id": "http://diglib.hab.de/mss/50-weiss/canvas/page1",
             "type": "Canvas",
@@ -1624,7 +1609,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page1",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page1",
                             "type": "Annotation",
@@ -1675,7 +1660,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page2",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page2",
                             "type": "Annotation",
@@ -1726,7 +1711,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page3",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page3",
                             "type": "Annotation",
@@ -1777,7 +1762,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page4",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page4",
                             "type": "Annotation",
@@ -1828,7 +1813,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page5",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page5",
                             "type": "Annotation",
@@ -1879,7 +1864,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page6",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page6",
                             "type": "Annotation",
@@ -1930,7 +1915,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page7",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page7",
                             "type": "Annotation",
@@ -1981,7 +1966,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page8",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page8",
                             "type": "Annotation",
@@ -2032,7 +2017,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page9",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page9",
                             "type": "Annotation",
@@ -2083,7 +2068,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page10",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page10",
                             "type": "Annotation",
@@ -2134,7 +2119,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page11",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page11",
                             "type": "Annotation",
@@ -2185,7 +2170,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page12",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page12",
                             "type": "Annotation",
@@ -2236,7 +2221,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page13",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page13",
                             "type": "Annotation",
@@ -2287,7 +2272,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page14",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page14",
                             "type": "Annotation",
@@ -2338,7 +2323,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page15",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page15",
                             "type": "Annotation",
@@ -2389,7 +2374,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page16",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page16",
                             "type": "Annotation",
@@ -2440,7 +2425,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page17",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page17",
                             "type": "Annotation",
@@ -2491,7 +2476,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page18",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page18",
                             "type": "Annotation",
@@ -2542,7 +2527,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page19",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page19",
                             "type": "Annotation",
@@ -2593,7 +2578,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page20",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page20",
                             "type": "Annotation",
@@ -2644,7 +2629,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page21",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page21",
                             "type": "Annotation",
@@ -2695,7 +2680,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page22",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page22",
                             "type": "Annotation",
@@ -2746,7 +2731,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page23",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page23",
                             "type": "Annotation",
@@ -2797,7 +2782,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page24",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page24",
                             "type": "Annotation",
@@ -2848,7 +2833,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page25",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page25",
                             "type": "Annotation",
@@ -2899,7 +2884,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page26",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page26",
                             "type": "Annotation",
@@ -2950,7 +2935,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page27",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page27",
                             "type": "Annotation",
@@ -3001,7 +2986,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page28",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page28",
                             "type": "Annotation",
@@ -3052,7 +3037,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page29",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page29",
                             "type": "Annotation",
@@ -3103,7 +3088,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page30",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page30",
                             "type": "Annotation",
@@ -3154,7 +3139,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page31",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page31",
                             "type": "Annotation",
@@ -3205,7 +3190,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page32",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page32",
                             "type": "Annotation",
@@ -3256,7 +3241,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page33",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page33",
                             "type": "Annotation",
@@ -3307,7 +3292,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page34",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page34",
                             "type": "Annotation",
@@ -3358,7 +3343,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page35",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page35",
                             "type": "Annotation",
@@ -3409,7 +3394,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page36",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page36",
                             "type": "Annotation",
@@ -3460,7 +3445,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page37",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page37",
                             "type": "Annotation",
@@ -3511,7 +3496,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page38",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page38",
                             "type": "Annotation",
@@ -3562,7 +3547,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page39",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page39",
                             "type": "Annotation",
@@ -3613,7 +3598,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page40",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page40",
                             "type": "Annotation",
@@ -3664,7 +3649,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page41",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page41",
                             "type": "Annotation",
@@ -3715,7 +3700,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page42",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page42",
                             "type": "Annotation",
@@ -3766,7 +3751,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page43",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page43",
                             "type": "Annotation",
@@ -3817,7 +3802,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page44",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page44",
                             "type": "Annotation",
@@ -3868,7 +3853,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page45",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page45",
                             "type": "Annotation",
@@ -3919,7 +3904,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page46",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page46",
                             "type": "Annotation",
@@ -3970,7 +3955,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page47",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page47",
                             "type": "Annotation",
@@ -4021,7 +4006,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page48",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page48",
                             "type": "Annotation",
@@ -4072,7 +4057,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page49",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page49",
                             "type": "Annotation",
@@ -4123,7 +4108,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page50",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page50",
                             "type": "Annotation",
@@ -4174,7 +4159,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page51",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page51",
                             "type": "Annotation",
@@ -4225,7 +4210,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page52",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page52",
                             "type": "Annotation",
@@ -4276,7 +4261,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page53",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page53",
                             "type": "Annotation",
@@ -4327,7 +4312,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page54",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page54",
                             "type": "Annotation",
@@ -4378,7 +4363,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page55",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page55",
                             "type": "Annotation",
@@ -4429,7 +4414,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page56",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page56",
                             "type": "Annotation",
@@ -4480,7 +4465,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page57",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page57",
                             "type": "Annotation",
@@ -4531,7 +4516,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page58",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page58",
                             "type": "Annotation",
@@ -4582,7 +4567,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page59",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page59",
                             "type": "Annotation",
@@ -4633,7 +4618,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page60",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page60",
                             "type": "Annotation",
@@ -4684,7 +4669,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page61",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page61",
                             "type": "Annotation",
@@ -4735,7 +4720,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page62",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page62",
                             "type": "Annotation",
@@ -4786,7 +4771,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page63",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page63",
                             "type": "Annotation",
@@ -4837,7 +4822,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page64",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page64",
                             "type": "Annotation",
@@ -4888,7 +4873,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page65",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page65",
                             "type": "Annotation",
@@ -4939,7 +4924,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page66",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page66",
                             "type": "Annotation",
@@ -4990,7 +4975,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page67",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page67",
                             "type": "Annotation",
@@ -5041,7 +5026,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page68",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page68",
                             "type": "Annotation",
@@ -5092,7 +5077,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page69",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page69",
                             "type": "Annotation",
@@ -5143,7 +5128,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page70",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page70",
                             "type": "Annotation",
@@ -5194,7 +5179,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page71",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page71",
                             "type": "Annotation",
@@ -5245,7 +5230,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page72",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page72",
                             "type": "Annotation",
@@ -5296,7 +5281,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page73",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page73",
                             "type": "Annotation",
@@ -5347,7 +5332,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page74",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page74",
                             "type": "Annotation",
@@ -5398,7 +5383,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page75",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page75",
                             "type": "Annotation",
@@ -5449,7 +5434,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page76",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page76",
                             "type": "Annotation",
@@ -5500,7 +5485,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page77",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page77",
                             "type": "Annotation",
@@ -5551,7 +5536,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page78",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page78",
                             "type": "Annotation",
@@ -5602,7 +5587,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page79",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page79",
                             "type": "Annotation",
@@ -5653,7 +5638,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page80",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page80",
                             "type": "Annotation",
@@ -5704,7 +5689,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page81",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page81",
                             "type": "Annotation",
@@ -5755,7 +5740,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page82",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page82",
                             "type": "Annotation",
@@ -5806,7 +5791,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page83",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page83",
                             "type": "Annotation",
@@ -5857,7 +5842,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page84",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page84",
                             "type": "Annotation",
@@ -5908,7 +5893,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page85",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page85",
                             "type": "Annotation",
@@ -5959,7 +5944,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page86",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page86",
                             "type": "Annotation",
@@ -6010,7 +5995,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page87",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page87",
                             "type": "Annotation",
@@ -6061,7 +6046,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page88",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page88",
                             "type": "Annotation",
@@ -6112,7 +6097,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page89",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page89",
                             "type": "Annotation",
@@ -6163,7 +6148,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page90",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page90",
                             "type": "Annotation",
@@ -6214,7 +6199,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page91",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page91",
                             "type": "Annotation",
@@ -6265,7 +6250,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page92",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page92",
                             "type": "Annotation",
@@ -6316,7 +6301,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page93",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page93",
                             "type": "Annotation",
@@ -6367,7 +6352,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page94",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page94",
                             "type": "Annotation",
@@ -6418,7 +6403,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page95",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page95",
                             "type": "Annotation",
@@ -6469,7 +6454,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page96",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page96",
                             "type": "Annotation",
@@ -6520,7 +6505,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page97",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page97",
                             "type": "Annotation",
@@ -6571,7 +6556,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page98",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page98",
                             "type": "Annotation",
@@ -6622,7 +6607,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page99",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page99",
                             "type": "Annotation",
@@ -6673,7 +6658,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page100",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page100",
                             "type": "Annotation",
@@ -6724,7 +6709,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page101",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page101",
                             "type": "Annotation",
@@ -6775,7 +6760,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page102",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page102",
                             "type": "Annotation",
@@ -6826,7 +6811,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page103",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page103",
                             "type": "Annotation",
@@ -6877,7 +6862,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page104",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page104",
                             "type": "Annotation",
@@ -6928,7 +6913,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page105",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page105",
                             "type": "Annotation",
@@ -6979,7 +6964,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page106",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page106",
                             "type": "Annotation",
@@ -7030,7 +7015,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page107",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page107",
                             "type": "Annotation",
@@ -7081,7 +7066,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page108",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page108",
                             "type": "Annotation",
@@ -7132,7 +7117,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page109",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page109",
                             "type": "Annotation",
@@ -7183,7 +7168,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page110",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page110",
                             "type": "Annotation",
@@ -7234,7 +7219,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page111",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page111",
                             "type": "Annotation",
@@ -7285,7 +7270,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page112",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page112",
                             "type": "Annotation",
@@ -7336,7 +7321,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page113",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page113",
                             "type": "Annotation",
@@ -7387,7 +7372,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page114",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page114",
                             "type": "Annotation",
@@ -7438,7 +7423,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page115",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page115",
                             "type": "Annotation",
@@ -7489,7 +7474,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page116",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page116",
                             "type": "Annotation",
@@ -7540,7 +7525,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page117",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page117",
                             "type": "Annotation",
@@ -7591,7 +7576,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page118",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page118",
                             "type": "Annotation",
@@ -7642,7 +7627,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page119",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page119",
                             "type": "Annotation",
@@ -7693,7 +7678,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page120",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page120",
                             "type": "Annotation",
@@ -7744,7 +7729,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page121",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page121",
                             "type": "Annotation",
@@ -7795,7 +7780,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page122",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page122",
                             "type": "Annotation",
@@ -7846,7 +7831,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page123",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page123",
                             "type": "Annotation",
@@ -7897,7 +7882,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page124",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page124",
                             "type": "Annotation",
@@ -7948,7 +7933,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page125",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page125",
                             "type": "Annotation",
@@ -7999,7 +7984,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page126",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page126",
                             "type": "Annotation",
@@ -8050,7 +8035,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page127",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page127",
                             "type": "Annotation",
@@ -8101,7 +8086,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page128",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page128",
                             "type": "Annotation",
@@ -8152,7 +8137,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page129",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page129",
                             "type": "Annotation",
@@ -8203,7 +8188,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page130",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page130",
                             "type": "Annotation",
@@ -8254,7 +8239,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page131",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page131",
                             "type": "Annotation",
@@ -8305,7 +8290,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page132",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page132",
                             "type": "Annotation",
@@ -8356,7 +8341,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page133",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page133",
                             "type": "Annotation",
@@ -8407,7 +8392,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page134",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page134",
                             "type": "Annotation",
@@ -8458,7 +8443,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page135",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page135",
                             "type": "Annotation",
@@ -8509,7 +8494,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page136",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page136",
                             "type": "Annotation",
@@ -8560,7 +8545,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page137",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page137",
                             "type": "Annotation",
@@ -8611,7 +8596,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page138",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page138",
                             "type": "Annotation",
@@ -8662,7 +8647,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page139",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page139",
                             "type": "Annotation",
@@ -8713,7 +8698,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page140",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page140",
                             "type": "Annotation",
@@ -8764,7 +8749,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page141",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page141",
                             "type": "Annotation",
@@ -8815,7 +8800,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page142",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page142",
                             "type": "Annotation",
@@ -8866,7 +8851,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page143",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page143",
                             "type": "Annotation",
@@ -8917,7 +8902,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page144",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page144",
                             "type": "Annotation",
@@ -8968,7 +8953,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page145",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page145",
                             "type": "Annotation",
@@ -9019,7 +9004,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page146",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page146",
                             "type": "Annotation",
@@ -9070,7 +9055,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page147",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page147",
                             "type": "Annotation",
@@ -9121,7 +9106,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page148",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page148",
                             "type": "Annotation",
@@ -9172,7 +9157,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page149",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page149",
                             "type": "Annotation",
@@ -9223,7 +9208,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page150",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page150",
                             "type": "Annotation",
@@ -9274,7 +9259,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page151",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page151",
                             "type": "Annotation",
@@ -9325,7 +9310,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page152",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page152",
                             "type": "Annotation",
@@ -9376,7 +9361,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page153",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page153",
                             "type": "Annotation",
@@ -9427,7 +9412,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page154",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page154",
                             "type": "Annotation",
@@ -9478,7 +9463,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page155",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page155",
                             "type": "Annotation",
@@ -9529,7 +9514,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page156",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page156",
                             "type": "Annotation",
@@ -9580,7 +9565,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page157",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page157",
                             "type": "Annotation",
@@ -9631,7 +9616,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page158",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page158",
                             "type": "Annotation",
@@ -9682,7 +9667,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page159",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page159",
                             "type": "Annotation",
@@ -9733,7 +9718,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page160",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page160",
                             "type": "Annotation",
@@ -9784,7 +9769,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page161",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page161",
                             "type": "Annotation",
@@ -9835,7 +9820,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page162",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page162",
                             "type": "Annotation",
@@ -9886,7 +9871,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page163",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page163",
                             "type": "Annotation",
@@ -9937,7 +9922,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page164",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page164",
                             "type": "Annotation",
@@ -9988,7 +9973,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page165",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page165",
                             "type": "Annotation",
@@ -10039,7 +10024,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page166",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page166",
                             "type": "Annotation",
@@ -10090,7 +10075,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page167",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page167",
                             "type": "Annotation",
@@ -10141,7 +10126,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page168",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page168",
                             "type": "Annotation",
@@ -10192,7 +10177,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page169",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page169",
                             "type": "Annotation",
@@ -10243,7 +10228,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page170",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page170",
                             "type": "Annotation",
@@ -10294,7 +10279,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page171",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page171",
                             "type": "Annotation",
@@ -10345,7 +10330,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page172",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page172",
                             "type": "Annotation",
@@ -10396,7 +10381,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page173",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page173",
                             "type": "Annotation",
@@ -10447,7 +10432,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page174",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page174",
                             "type": "Annotation",
@@ -10498,7 +10483,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page175",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page175",
                             "type": "Annotation",
@@ -10549,7 +10534,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page176",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page176",
                             "type": "Annotation",
@@ -10600,7 +10585,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page177",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page177",
                             "type": "Annotation",
@@ -10651,7 +10636,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page178",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page178",
                             "type": "Annotation",
@@ -10702,7 +10687,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page179",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page179",
                             "type": "Annotation",
@@ -10753,7 +10738,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page180",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page180",
                             "type": "Annotation",
@@ -10804,7 +10789,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page181",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page181",
                             "type": "Annotation",
@@ -10855,7 +10840,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page182",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page182",
                             "type": "Annotation",
@@ -10906,7 +10891,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page183",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page183",
                             "type": "Annotation",
@@ -10957,7 +10942,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page184",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page184",
                             "type": "Annotation",
@@ -11008,7 +10993,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page185",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page185",
                             "type": "Annotation",
@@ -11059,7 +11044,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page186",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page186",
                             "type": "Annotation",
@@ -11110,7 +11095,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page187",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page187",
                             "type": "Annotation",
@@ -11161,7 +11146,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page188",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page188",
                             "type": "Annotation",
@@ -11212,7 +11197,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page189",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page189",
                             "type": "Annotation",
@@ -11263,7 +11248,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page190",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page190",
                             "type": "Annotation",
@@ -11314,7 +11299,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page191",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page191",
                             "type": "Annotation",
@@ -11365,7 +11350,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page192",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page192",
                             "type": "Annotation",
@@ -11416,7 +11401,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page193",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page193",
                             "type": "Annotation",
@@ -11467,7 +11452,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page194",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page194",
                             "type": "Annotation",
@@ -11518,7 +11503,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page195",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page195",
                             "type": "Annotation",
@@ -11569,7 +11554,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page196",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page196",
                             "type": "Annotation",
@@ -11620,7 +11605,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page197",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page197",
                             "type": "Annotation",
@@ -11671,7 +11656,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page198",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page198",
                             "type": "Annotation",
@@ -11722,7 +11707,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page199",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page199",
                             "type": "Annotation",
@@ -11773,7 +11758,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page200",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page200",
                             "type": "Annotation",
@@ -11824,7 +11809,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page201",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page201",
                             "type": "Annotation",
@@ -11875,7 +11860,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page202",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page202",
                             "type": "Annotation",
@@ -11926,7 +11911,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page203",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page203",
                             "type": "Annotation",
@@ -11977,7 +11962,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page204",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page204",
                             "type": "Annotation",
@@ -12028,7 +12013,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page205",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page205",
                             "type": "Annotation",
@@ -12079,7 +12064,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page206",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page206",
                             "type": "Annotation",
@@ -12130,7 +12115,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page207",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page207",
                             "type": "Annotation",
@@ -12181,7 +12166,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page208",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page208",
                             "type": "Annotation",
@@ -12232,7 +12217,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page209",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page209",
                             "type": "Annotation",
@@ -12283,7 +12268,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page210",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page210",
                             "type": "Annotation",
@@ -12334,7 +12319,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page211",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page211",
                             "type": "Annotation",
@@ -12385,7 +12370,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page212",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page212",
                             "type": "Annotation",
@@ -12436,7 +12421,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page213",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page213",
                             "type": "Annotation",
@@ -12487,7 +12472,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page214",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page214",
                             "type": "Annotation",
@@ -12538,7 +12523,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page215",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page215",
                             "type": "Annotation",
@@ -12589,7 +12574,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page216",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page216",
                             "type": "Annotation",
@@ -12640,7 +12625,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page217",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page217",
                             "type": "Annotation",
@@ -12691,7 +12676,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page218",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page218",
                             "type": "Annotation",
@@ -12742,7 +12727,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page219",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page219",
                             "type": "Annotation",
@@ -12793,7 +12778,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page220",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page220",
                             "type": "Annotation",
@@ -12844,7 +12829,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page221",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page221",
                             "type": "Annotation",
@@ -12895,7 +12880,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page222",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page222",
                             "type": "Annotation",
@@ -12946,7 +12931,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page223",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page223",
                             "type": "Annotation",
@@ -12997,7 +12982,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page224",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page224",
                             "type": "Annotation",
@@ -13048,7 +13033,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page225",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page225",
                             "type": "Annotation",
@@ -13099,7 +13084,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page226",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page226",
                             "type": "Annotation",
@@ -13150,7 +13135,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page227",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page227",
                             "type": "Annotation",
@@ -13201,7 +13186,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page228",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page228",
                             "type": "Annotation",
@@ -13252,7 +13237,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page229",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page229",
                             "type": "Annotation",
@@ -13303,7 +13288,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page230",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page230",
                             "type": "Annotation",
@@ -13354,7 +13339,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page231",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page231",
                             "type": "Annotation",
@@ -13405,7 +13390,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page232",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page232",
                             "type": "Annotation",
@@ -13456,7 +13441,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page233",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page233",
                             "type": "Annotation",
@@ -13507,7 +13492,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page234",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page234",
                             "type": "Annotation",
@@ -13558,7 +13543,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page235",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page235",
                             "type": "Annotation",
@@ -13609,7 +13594,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page236",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page236",
                             "type": "Annotation",
@@ -13660,7 +13645,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page237",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page237",
                             "type": "Annotation",
@@ -13711,7 +13696,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page238",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page238",
                             "type": "Annotation",
@@ -13762,7 +13747,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page239",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page239",
                             "type": "Annotation",
@@ -13813,7 +13798,7 @@
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/annopage/page240",
                     "type": "AnnotationPage",
-                    "images": [
+                    "items": [
                         {
                             "id": "http://diglib.hab.de/mss/50-weiss/annotation/page240",
                             "type": "Annotation",
@@ -13860,7 +13845,7 @@
                     "0000 (book cover)"
                 ]
             },
-            "canvases": [
+            "items": [
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/canvas/page1",
                     "type": "Canvas",
