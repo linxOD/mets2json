@@ -77,7 +77,9 @@
         }
     ],
     "viewingDirection": "left-to-right",
-    "behavior": [ "paged" ],
+    "behavior": [
+        "paged"
+    ],
     "navDate": "2020-05-18T12:18:43Z",
     "rights": "http://creativecommons.org/licenses/by/4.0",
     "requiredStatement": {
