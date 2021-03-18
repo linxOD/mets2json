@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://raw.githubusercontent.com/linxOD/mets2json/main/json/manifest",
+    "id": "https://raw.githubusercontent.com/linxOD/mets2json/main/json/manifest.json",
     "type": "Manifest",
     "label": {
         "none": [
